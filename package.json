@@ -9,16 +9,13 @@
     "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "1.8.8",
+    "electron": "9.3.2",
     "electron-builder": "22.8.1"
   },
   "build": {
-    "appId": "com.example.app",
-    "linux": {
-      "target": {
-        "arch": "x64",
-        "target": "deb"
-      }
-    }
+    "appId": "com.example.app"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.0"
   }
 }
